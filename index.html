@@ -85,12 +85,12 @@
     <div>
       <nav class="navbar navbar-default">
         <div class="container">
-          <div class="navbar-header"><a href="https://codeyourfuture.io/"><img src="https://codeyourfuture.io/static/media/cyf_brand.fbcea877.png" alt="logo" style="width: 158px; height: 50px;"></a><button type="button" class="navbar-toggle collapsed"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button></div>
+          <div class="navbar-header"><img id="logo" src="https://codeyourfuture.io/static/media/cyf_brand.fbcea877.png" alt="logo" style="width: 158px; height: 50px;"><button type="button" class="navbar-toggle collapsed"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button></div>
           <div class="navbar-collapse collapse">
-            <ul class="nav navbar-nav navbar-right">
+            <ul id="nav" class="nav navbar-nav navbar-right">
               <li role="presentation" class=""><a href="https://codeyourfuture.io/about">About</a></li>
               <li role="presentation" class=""><a href="https://codeyourfuture.io/students">Students</a></li>
-              <li role="presentation" class=""><a href="https://codeyourfuture.io/volunteers">Volunteers</a></li>
+              <li id="volunteers" role="presentation" class=""><a href="https://codeyourfuture.io/volunteers">Volunteers</a></li>
               <li role="presentation" class=""><a href="https://codeyourfuture.io/events">Events</a></li>
               <li role="presentation" class=""><a href="https://codeyourfuture.io/partners">Partners</a></li>
               <li role="presentation" class=""><a href="https://codeyourfuture.io/meet-the-team">Meet the team</a></li>
@@ -102,10 +102,10 @@
       </nav>
       <div class="Home">
         <div class="App-intro">
-          <div class="css-cssveg"><img src="https://codeyourfuture.io/static/media/1.b014063d.jpg" alt="teaching=refugees-to-code" class="css-udmjnm">
+          <div class="css-cssveg"><img src="https://codeyourfuture.io/static/media/1.b014063d.jpg" id="hero" alt="teaching=refugees-to-code" class="css-udmjnm">
             <div class="css-1griov3">
-              <h1>Coding School for Refugees</h1>
-              <p>Learn to code and find a job</p>
+              <h1 id="page-title">Coding School for Refugees</h1>
+              <p id="tag-line">Learn to code and find a job</p>
               <div class="page-title-bottom-link">
                 <a class="big-link-2 btn" href="https://codeyourfuture.io/students">Apply Now</a>
                 <a class="big-link-2 btn" target="_blank" rel="noopener noreferrer" href="https://codeyourfuture.io/volunteers">Become a volunteer</a>
@@ -124,28 +124,28 @@
           <div class="container">
             <div class="row">
               <div class="col-sm-6 col-md-6">
-                <h2>What we teach</h2>
+                <h2 class="sub-heading">What we teach</h2>
                 <div class="divider-1"><span></span></div><br></div>
             </div>
-            <div class="row">
+            <div class="row" id="technologies">
               <div class="col-sm-3">
-                <div class="md-icon"><img src="https://codeyourfuture.io/static/media/tablet.d8d83b38.svg" alt="Tablet"></div>
-                <h4>HTML &amp; CSS</h4>
+                <div class="md-icon"><img class="tech-icon" src="https://codeyourfuture.io/static/media/tablet.d8d83b38.svg" alt="Tablet"></div>
+                <h4 class="technology">HTML &amp; CSS</h4>
                 <p>Fundamentals of design. Design static web pages using best front-end practices.</p>
               </div>
               <div class="col-sm-3">
-                <div class="md-icon"><img src="https://codeyourfuture.io/static/media/code.f4e20b73.svg" alt="Code"></div>
-                <h4>JavaScript</h4>
+                <div class="md-icon"><img class="tech-icon" src="https://codeyourfuture.io/static/media/code.f4e20b73.svg" alt="Code"></div>
+                <h4 class="technology">JavaScript</h4>
                 <p>Use powerful modern scripting language to build web applications.</p>
               </div>
               <div class="col-sm-3">
-                <div class="md-icon"><img src="https://codeyourfuture.io/static/media/nodejs.949ce556.svg" alt="NodeJS"></div>
-                <h4>Node.js</h4>
+                <div class="md-icon"><img class="tech-icon" src="https://codeyourfuture.io/static/media/nodejs.949ce556.svg" alt="NodeJS"></div>
+                <h4 class="technology">Node.js</h4>
                 <p>Web application development powered by modern and fast Node.js</p>
               </div>
               <div class="col-sm-3">
-                <div class="md-icon"><img src="https://codeyourfuture.io/static/media/react.a0a9cca5.svg" alt="React"></div>
-                <h4>React</h4>
+                <div class="md-icon"><img class="tech-icon" src="https://codeyourfuture.io/static/media/react.a0a9cca5.svg" alt="React"></div>
+                <h4 class="technology">React</h4>
                 <p>A Javascript library for building user interfaces</p>
               </div>
             </div>
@@ -154,26 +154,26 @@
         <div class="container">
           <div class="row">
             <div class="col-sm-6 col-md-6">
-              <h2>As seen in</h2>
+              <h2 class="sub-heading">As seen in</h2>
               <div class="divider-1"><span></span></div><br></div>
           </div>
-          <div class="row">
-            <div class="col-sm-3">
+          <div id="media-links" class="row">
+            <div class="col-sm-3 footer-item">
               <a target="_blank" rel="noopener noreferrer" href="http://www.wired.co.uk/article/codeyourfuture-refugee-coding-school">
                 <div class="icon--large"><img src="https://codeyourfuture.io/static/media/wired.b5a6ae90.svg" alt="Wired"></div>
               </a>
             </div>
-            <div class="col-sm-3">
+            <div class="col-sm-3 footer-item">
               <a target="_blank" rel="noopener noreferrer" href="http://www.unhcr.org/news/stories/2017/1/586e420c7/volunteers-train-refugees-to-crack-into-london-tech-industry.html">
                 <div class="icon--large"><img src="https://codeyourfuture.io/static/media/unhcr.e406f503.png" alt="UNHCR"></div>
               </a>
             </div>
-            <div class="col-sm-3">
+            <div class="col-sm-3 footer-item">
               <a target="_blank" rel="noopener noreferrer" href="https://www.newsdeeply.com/refugees/articles/2016/10/19/welcome-to-londons-refugee-coding-school">
                 <div class="icon--large"><img src="https://codeyourfuture.io/static/media/refugees-deeply.dee1af6a.jpeg" alt="Refugees Deeply"></div>
               </a>
             </div>
-            <div class="col-sm-3">
+            <div class="col-sm-3 footer-item">
               <a target="_blank" rel="noopener noreferrer" href="http://www.bbc.co.uk/programmes/p04yzrrg">
                 <div class="icon--large"><img src="https://codeyourfuture.io/static/media/bbc.ca39ba89.svg" alt="BBC"></div>
               </a>
@@ -202,6 +202,7 @@
       </div>
     </div>
   </div>
+  <script src="src/index.js"></script>
 </body>
 
 </html>
